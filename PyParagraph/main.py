@@ -34,4 +34,3 @@ print("Average Letter Count:" + str(ave_letter_count))
 print("Average Sentence Length:" + str(ave_sentence_length))
 print("-"*40)
     
-
