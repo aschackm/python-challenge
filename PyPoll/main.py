@@ -2,7 +2,6 @@
 # hw3 python
 # PyPoll
 
-
 ### Import dependencies
 import os
 import csv
@@ -20,7 +19,6 @@ with open(csvpath, newline='') as csvfile:
     votes = list(Counter([l[2] for l in lines]).items())
 
 ### Find total votes
-### Why did this have to run again to find total votes?
 with open(csvpath, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     total_votes = sum(1 for row in csvreader)
